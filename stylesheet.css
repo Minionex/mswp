@@ -1,0 +1,24 @@
+.minefield {
+    display: table;
+    width: auto;
+}
+
+.tableBody {
+    display: table-row-group;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://minesweeper.online/img/skins/hd/closed.svg?v=3);
+    background-size: 100%;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
